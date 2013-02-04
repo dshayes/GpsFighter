@@ -1,12 +1,14 @@
 package m.gpsfighter;
 
 import android.os.Bundle;
+import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
 
-public class BattleLogActivity extends android.support.v4.app.FragmentActivity {
+
+public class BattleLogActivity extends Activity {
 	
 	public void moveToMainActivity(View view) {
 		//a button that navagates back to the main menu
