@@ -8,7 +8,7 @@ import android.view.View;
 
 
 
-public class BattleLogActivity extends Activity {
+public class BattleLogActivity extends android.support.v4.app.FragmentActivity {
 	
 	public void moveToMainActivity(View view) {
 		//a button that navagates back to the main menu
